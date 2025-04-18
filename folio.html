@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shamim - UI/UX Designer</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background:white;
+      color:black;
+      background-image: url('colourrr.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+    nav {
+      background-color: white;
+      padding: 15px;
+      display: flex;
+      justify-content:space-between;
+      align-items:center;
+      position:fixed;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: black;
+      cursor: pointer;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+
+    nav li {
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 500;
+      color:black;
+    }
+    nav .active {
+      background-color:white;
+      color:black;
+      padding: 5px 12px;
+      border-radius:20px;
+    }
+
+    .main {
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 100px 10% 50px; 
+      flex-wrap: wrap;
+      background-color:white;
+    }
+
+    .main-text {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .main-text h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .main-text p {
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+    }
+
+    .download {
+      color: white;
+      background-color: orangered;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    .hero-img {
+      flex: 1;
+      min-width: 250px;
+      text-align: center;
+    }
+
+    .hero-img img {
+      max-width: 100%;
+      height: auto;
+    }
+
+
+    .service-box {
+      flex: 1;
+      min-width: 220px;
+      max-width: 250px;
+      background-color:white;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">🔵FOLIO</div>
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Services</li>
+      <li>Portfolio</li>
+      <li>Blog</li>
+      <li>Contact</li>
+      <li class="active">📞Have any Questions?</li>
+    </ul>
+  </nav>
+
+  <div class="main">
+    <div class="main-text">
+      <h1>Hi, I'm Shamim<span class="highlight"></span></h1>
+      <h2>UI & UX Designer<span class="highlight"></span></h2>
+      <p>
+        Hey, are you looking for a designer to build your brand and grow<br>
+        your business? Let's shake hands with me.
+      </p>
+      <div class="buttons">
+        <button class="download">Download my CV</button>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="img.png" alt="Shamim UI/UX Designer">
+    </div>
+  </div>
+
+  <div class="services">
+    <h4>MY SERVICES</h4>
+    <h2>What We Do</h2>
+    <div class="service-boxes">
+      <div class="service-box">
+        <h3>Brand Strategy</h3>
+        <ul>
+          <li>Android OS App</li>
+          <li>Website UI Design</li>
+          <li>Interaction Design</li>
+          <li>Website Prototyping</li>
+          <li>Dashboard Onboarding</li>
+        </ul>
+      </div>
+      <div class="service-box">
+        <h3>UI & UX Design</h3>
+        <ul>
+          <li>Andoroid OS</li>
+          <li>Website UI Design</li>
+          <li>UI Interaction Design</li>
+          <li>Website Prototyping</li>
+          <li>Dashboard Onboarding</li>
+        </ul>
+      </div>
+    
+      <div class="service-box">
+        <h3>Website Design</h3>
+        <ul>
+          <li>Android/IOS</li>
+          <li>Website UI Design</li>
+          <li>UI Interactive Design</li>
+          <li>Website Prototyping</li>
+          <li>Dashboard</li>
+        </ul>
+      </div>
+      <div class="service-box">
+        <h3>Software Design</h3>
+        <ul>
+          <li>App Design</li>
+          <li>System Architecture</li>
+          <li>User Flow</li>
+          <li>API Integration</li>
+          <li>Security Design</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
